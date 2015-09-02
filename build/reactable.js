@@ -674,12 +674,12 @@
                 return React.createElement(
                     'thead',
                     props,
-                    this.props.filtering === true ? React.createElement(_filterer.Filterer, {
+                    /*this.props.filtering === true ? React.createElement(_filterer.Filterer, {
                         colSpan: this.props.columns.length,
                         onFilter: this.props.onFilter,
                         placeholder: this.props.filterPlaceholder,
                         value: this.props.currentFilter
-                    }) : null,
+                    }) : null,*/
                     React.createElement(
                         'tr',
                         { className: 'reactable-column-header' },
